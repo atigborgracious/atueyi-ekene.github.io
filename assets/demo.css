@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+
+
+
+.top ul{
+	margin: 0px;
+	text-align: center;
+	padding: 0px;
+	margin-bottom: 30px;
+}
+
+.top ul li{
+	display: inline;
+	list-style: none;
+	margin: 0px 20px;
+}
+
+
+
+
+.post{
+	margin-bottom: 80px;
+	
+}
+
+
+
+
+/* Required */
+
+.hidden{
+	opacity: 0;
+}
+
+.visible{
+	opacity: 1;
+}
