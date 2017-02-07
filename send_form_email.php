@@ -8,7 +8,7 @@ if(isset($_POST['email'])) {
  
     $email_to = "solushing@gmail.com";
  
-    $email_subject = "Message from My Website";
+    $email_subject = "Message from Website";
  
      
  
@@ -36,7 +36,7 @@ if(isset($_POST['email'])) {
  
     if(!isset($_POST['first_name']) ||
  
-        !isset($_POST['last_name']) ||
+       
  
         !isset($_POST['email']) ||
  
@@ -50,9 +50,9 @@ if(isset($_POST['email'])) {
  
      
  
-    
+    $first_name = $_POST['first_name']; // required
  
-    $lname = $_POST['lname']; // required
+    
  
     $email_from = $_POST['email']; // required
  
@@ -80,11 +80,7 @@ if(isset($_POST['email'])) {
  
   }
  
-  if(!preg_match($string_exp,$last_name)) {
- 
-    $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
- 
-  }
+  
  
   if(strlen($comments) < 2) {
  
@@ -114,7 +110,7 @@ if(isset($_POST['email'])) {
  
     $email_message .= "First Name: ".clean_string($first_name)."\n";
  
-    $email_message .= "Last Name: ".clean_string($last_name)."\n";
+   
  
     $email_message .= "Email: ".clean_string($email_from)."\n";
  
@@ -144,9 +140,10 @@ $headers = 'From: '.$email_from."\r\n".
  
  
  
-Thank you for contacting us. We will be in touch with you very soon.
+<!--
+echo '<script type="text/javascript">alert("Thank you for contacting us. We will be in touch with you very soon.");</script>';-->
  
- 
+ echo "Thank you for contacting us. We will be in touch with you very soon." ;
  
 <?php
  
