@@ -60,6 +60,7 @@ opacity: 1;
 transform: translate3d (0,0,800px) rotateY(-40deg);
 }
 #success_message{ display: none;}
+
 .contact {
     background: url(../img/slid2.jpg)no-repeat 0px 0px;
     background-size: cover;
@@ -160,10 +161,32 @@ font-size:149%;
 }
 .abt1{
 font-size:149%;
- color:#383838;
+ color:white;
  text-align: justify;
  text-justify: trim;
- 
+ padding: 0 20px 0 20px;
+}
+.abtback{
+    background: url(../img/missionnew.png)no-repeat 0px 0px;
+    background-size: cover;
+    padding: 5em 0 0;
+}
+
+.shorten{
+    width: 70%;
+    margin : 0 auto;
+    padding-top:35px;
+    text-align: center;
+    color:#fbfbfb;
+}
+.shorten2{
+    font-size:2em;
+    margin : 0 auto;
+    text-align: center;
+    color:#fbfbfb;
+}
+.nav-tabs  li a {
+    color:aqua;
 }
 
 /*TESTING*/
@@ -242,4 +265,14 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 p{
 text-align:justify;	
     text-justify:kashida;
+}
+
+@media screen and (max-width: 1024px) {
+  .shorten{
+    width: 100%;
+    margin : 0 auto;
+    padding-top:35px;
+    text-align: center;
+      color:#fbfbfb;
+}
 }
