@@ -445,101 +445,6 @@ footer span {
     
 }
 
-.service1 {
-    background: url("../img/serv1.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    margin: 1% 3px;
-    height: 365px;
-    color: #fff;
-    padding: 4%;
-}
-
-.service2 {
-    background: url("../img/serv2.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   margin: 1% 3px;
-    height: 365px;
-    color: #fff;
-    padding: 4%;
-}
-
-.service3 {
-    background: url("../img/serv3.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   margin: 1% 3px;
-    height: 365px;
-    color: #fff;
-    padding: 4%;
-}
-
-.service4 {
-    background: url("../img/serv4.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   margin: 1% 3px;
-    height: 365px;
-    color: #fff;
-    padding: 4%;
-}
-
-.service5 {
-    background: url("../img/serv5.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    margin: 1% 3px;
-    height: 365px;
-    color: #fff;
-    padding: 4%;
-}
-
-.service6 {
-    background: url("../img/serv6.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   margin: 1% 3px;
-    height: 365px;
-    color: #fff;
-    padding: 4%;
-}
-
-.service7 {
-    background: url("../img/serv7.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   margin: 1% 3px;
-    height: 365px;
-    color: #fff;
-    padding: 4%;
-}
-
-.service8 {
-    background: url("../img/serv8.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   margin: 1% 3px;
-    height: 365px;
-    color: #fff;
-    padding: 4%;
-}
 
 .service1 span img{
     margin: 1.5%;
@@ -681,11 +586,12 @@ a {
   -webkit-transition: 250ms all;
   transition: 250ms all;
     z-index: 999;
+ 
     
 }
 
 .menu-opener {
-       
+        
   cursor: pointer;
   height: 64px;
   position: absolute;
@@ -871,16 +777,21 @@ margin : 1%;
     
     
     .service1 {
-    background: url("../img/serv1.jpg") no-repeat center top;
+    background: url("../img/serv1.jpg") repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
     margin: 1% 3px;
-    height: 700px;
+    min-height:  auto;
     color: #fff;
     padding: 5%;
 }
+    .service1 p{
+        max-height:  auto;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+    }
 
 .service2 {
     background: url("../img/serv2.jpg") no-repeat center top;
@@ -1025,8 +936,7 @@ margin : 1%;
     letter-spacing: 0.1rem;
 }
 
-
-@media only screen and (max-width:830px), only screen and (min-width:600px) {
+@media only screen and (min-width:900px) {
     
     .service1 {
     background: url("../img/serv1.jpg") no-repeat center top;
@@ -1035,7 +945,413 @@ margin : 1%;
   -o-background-size: cover;
   background-size: cover;
     margin: 1% 3px;
-     height: 450px;
+    height: 320px ;
+    color: #fff;
+    padding: 4%;
+}
+
+.service2 {
+    background: url("../img/serv2.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 320px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service3 {
+    background: url("../img/serv3.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 320px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service4 {
+    background: url("../img/serv4.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 320px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service5 {
+    background: url("../img/serv5.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 1% 3px;
+    height: 320px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service6 {
+    background: url("../img/serv6.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 320px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service7 {
+    background: url("../img/serv7.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 320px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service8 {
+    background: url("../img/serv8.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 320px;
+    color: #fff;
+    padding: 4%;
+}
+
+    
+}
+
+@media only screen and (max-width:899px) {
+    
+    .service1 {
+    background: url("../img/serv1.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 1% 3px;
+    height: 485px ;
+    color: #fff;
+    padding: 4%;
+}
+
+.service2 {
+    background: url("../img/serv2.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 485px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service3 {
+    background: url("../img/serv3.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 435px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service4 {
+    background: url("../img/serv4.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 435px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service5 {
+    background: url("../img/serv5.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 1% 3px;
+    height: 435px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service6 {
+    background: url("../img/serv6.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 435px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service7 {
+    background: url("../img/serv7.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 435px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service8 {
+    background: url("../img/serv8.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 435px;
+    color: #fff;
+    padding: 4%;
+}
+
+    
+}
+
+ @media only screen and (max-width:599px) {
+    
+    .service1 {
+    background: url("../img/serv1.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 1% 3px;
+    height: 435px ;
+    color: #fff;
+    padding: 4%;
+}
+
+.service2 {
+    background: url("../img/serv2.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 435px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service3 {
+    background: url("../img/serv3.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 435px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service4 {
+    background: url("../img/serv4.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 435px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service5 {
+    background: url("../img/serv5.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 1% 3px;
+    height: 435px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service6 {
+    background: url("../img/serv6.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 435px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service7 {
+    background: url("../img/serv7.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 435px;
+    color: #fff;
+    padding: 4%;
+}
+
+.service8 {
+    background: url("../img/serv8.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: 435px;
+    color: #fff;
+    padding: 4%;
+}
+
+    
+}
+
+
+@media only screen and (max-width:570px) {
+    
+    .service1 {
+    background: url("../img/serv1.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 1% 3px;
+    height: auto ;
+    color: #fff;
+    padding: 4%;
+}
+
+.service2 {
+    background: url("../img/serv2.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 4%;
+}
+
+.service3 {
+    background: url("../img/serv3.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 4%;
+}
+
+.service4 {
+    background: url("../img/serv4.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 4%;
+}
+
+.service5 {
+    background: url("../img/serv5.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 4%;
+}
+
+.service6 {
+    background: url("../img/serv6.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 4%;
+}
+
+.service7 {
+    background: url("../img/serv7.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 4%;
+}
+
+.service8 {
+    background: url("../img/serv8.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 4%;
+}
+
+    
+}
+
+
+/*@media only screen and (max-width:830px), only screen and (min-width:600px) {
+    
+    .service1 {
+    background: url("../img/serv1.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 1% 3px;
+     height: auto;
     color: #fff;
     padding: 4%;
 }
@@ -1125,4 +1441,4 @@ margin : 1%;
 }
     
 }
-
+*/
