@@ -7,7 +7,7 @@
 
 body{
  margin:0;
-font-family: 'Open Sans', sans-serif; 
+font-family: 'Raleway', sans-serif;
 font-size: 1rem;
     line-height: 1.5;
     overflow-x: hidden;
@@ -105,7 +105,7 @@ footer {
     text-align: left;
     font-weight: bolder;
     letter-spacing: 1.3rem;
-    font-size: 3rem;
+    font-size: 15rem;
 }
 
 .carousel-caption .board {
@@ -189,7 +189,7 @@ footer span {
 }
 
 .title span {
-    font-weight: 100;
+    font-weight: 400;
    border-bottom: solid 1px #636363;
     opacity: 0.8;
 }
@@ -479,6 +479,341 @@ footer span {
 }
 
 
+   
+    .Web-service {
+    background: url("../img/Web-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height:  380px;
+    color: #fff;
+    padding: 5%;
+    letter-spacing: 2px;    
+    font-family: 'Raleway', sans-serif;    
+}
+.Web-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.Web-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.Web-service p {
+    display:none;
+}
+
+.Web-service:hover p {
+    display:block;
+}
+
+
+ .motion-service {
+    background: url("../img/motion-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+
+.motion-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.motion-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.motion-service p {
+    display:none;
+}
+
+.motion-service:hover p {
+    display:block;
+}
+
+
+
+
+.graphic-service {
+    background: url("../img/graphic-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+
+.graphic-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.graphic-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.graphic-service p {
+    display:none;
+}
+
+.graphic-service:hover p {
+    display:block;
+}
+
+
+
+
+
+
+.video-service {
+    background: url("../img/video-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+
+.video-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.video-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.video-service p {
+    display:none;
+}
+
+.video-service:hover p {
+    display:block;
+}
+
+
+
+
+.brand-service {
+    background: url("../img/brand-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+
+.brand-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.brand-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.brand-service p {
+    display:none;
+}
+
+.brand-service:hover p {
+    display:block;
+}
+
+
+
+
+
+.content-service {
+    background: url("../img/content-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+
+.content-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.content-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.content-service p {
+    display:none;
+}
+
+.content-service:hover p {
+    display:block;
+}
+
+.app-service {
+    background: url("../img/app-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+.app-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.app-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.app-service p {
+    display:none;
+}
+
+.app-service:hover p {
+    display:block;
+}
+
+
+
+
+.main-service {
+   background: url("../img/main-service%20.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+.main-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.main-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.main-service p {
+    display:none;
+}
+
+.main-service:hover p {
+    display:block;
+}
+
+
+
+
+
 
 .service1 h1{
     letter-spacing: 0.3rem;
@@ -529,6 +864,344 @@ footer span {
      border-top: solid 3px #22e1ec;
     height : 500px;
 }
+    
+ .Web-service {
+    background: url("../img/Web-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height:  410px;
+    color: #fff;
+    padding: 5%;
+    letter-spacing: 2px;    
+    font-family: 'Raleway', sans-serif;    
+}
+.Web-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.Web-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height:  auto;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.Web-service p {
+    display:none;
+}
+
+.Web-service:hover p {
+    display:block;
+}
+
+
+ .motion-service {
+    background: url("../img/motion-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+
+.motion-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.motion-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.motion-service p {
+    display:none;
+}
+
+.motion-service:hover p {
+    display:block;
+}
+
+
+
+
+.graphic-service {
+    background: url("../img/graphic-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+
+.graphic-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.graphic-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.graphic-service p {
+    display:none;
+}
+
+.graphic-service:hover p {
+    display:block;
+}
+
+
+
+
+
+
+.video-service {
+    background: url("../img/video-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+
+.video-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.video-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.video-service p {
+    display:none;
+}
+
+.video-service:hover p {
+    display:block;
+}
+
+
+
+
+.brand-service {
+    background: url("../img/brand-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+
+.brand-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.brand-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.brand-service p {
+    display:none;
+}
+
+.brand-service:hover p {
+    display:block;
+}
+
+
+
+
+
+.content-service {
+    background: url("../img/content-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+
+.content-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.content-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.content-service p {
+    display:none;
+}
+
+.content-service:hover p {
+    display:block;
+}
+
+.app-service {
+    background: url("../img/app-service.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+.app-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.app-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.app-service p {
+    display:none;
+}
+
+.app-service:hover p {
+    display:block;
+}
+
+
+
+
+.main-service {
+   background: url("../img/main-service%20.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+}
+.main-service h3 {
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.main-service:hover {
+     background:#1d2d3e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height:  380px;
+    color: #fff;
+    padding: 5%;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.main-service p {
+    display:none;
+}
+
+.main-service:hover p {
+    display:block;
+}
+
+   
+    
+    
+    
+    
+    
+    
 }
 @media (max-width:664px) {
     
@@ -775,6 +1448,8 @@ margin : 1%;
      opacity: 0.7;   
     }
     
+    
+ 
     
     .service1 {
     background: url("../img/serv1.jpg") repeat center top;
