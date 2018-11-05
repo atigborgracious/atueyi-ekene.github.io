@@ -7,7 +7,7 @@
 
 body{
  margin:0;
-font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif !important;
 font-size: 1rem;
     line-height: 1.5;
     overflow-x: hidden;
@@ -76,6 +76,7 @@ font-size: 1rem;
     align-content: center;
     text-align: center;
     margin-top:2%;
+    font-family: 'Raleway', sans-serif !important;
 }
 .process p {
     background-color: #0ea7e4;
@@ -83,16 +84,19 @@ font-size: 1rem;
     padding : 2%;
     text-align: center;
     font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .process span {
     font-weight: lighter;
     border-bottom: solid 1px #e20b92;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 footer {
     background-color: #343434;
     border-top: solid 2px #0ea7e4 ;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .carousel-item .img-fluid {
@@ -106,6 +110,7 @@ footer {
     font-weight: bolder;
     letter-spacing: 1.3rem;
     font-size: 15rem;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .carousel-caption .board {
@@ -117,9 +122,11 @@ footer p {
     padding: 5px;
     color : #c9c9c9;
     text-align: center;
+    font-family: 'Raleway', sans-serif !important;
 }
 footer span {
  margin: auto 1%;
+    font-family: 'Raleway', sans-serif !important;
     color: #8c8b8b;
 }
 
@@ -143,6 +150,7 @@ footer span {
     font-weight:900;
     font-size:17px;
     letter-spacing: 0.045em;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .btn svg {
@@ -181,22 +189,26 @@ footer span {
 .title {
     align-content: center;
     text-align: center;
+    font-family: 'Raleway', sans-serif !important;
     
 }
 
 .title h1 {
     letter-spacing: 0.2em;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .title span {
     font-weight: 400;
    border-bottom: solid 1px #636363;
+    font-family: 'Raleway', sans-serif !important;
     opacity: 0.8;
 }
 .title p {
     padding: 4%;
     line-height: 2.2;
     opacity: 0.9;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 
@@ -210,6 +222,7 @@ footer span {
     color : #fff;
      letter-spacing: 0.2em;
     padding : 50px 50px;
+    font-family: 'Raleway', sans-serif !important;
     
 }
 
@@ -217,6 +230,7 @@ footer span {
      font-weight: 100;
    border-bottom: solid 1px #636363;
     opacity: 0.8;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 
@@ -228,6 +242,7 @@ footer span {
     font-size : 1.5rem ;
     margin-top: 3%;
    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .see_more .border{
@@ -275,6 +290,7 @@ footer span {
     height: 365px;
     color: #fff;
     padding: 4%;
+     font-family: 'Raleway', sans-serif !important;
 }
 
 #sff .web_design:hover{
@@ -292,6 +308,7 @@ footer span {
     height: 365px;
     color: #fff;
     padding: 4%;
+     font-family: 'Raleway', sans-serif !important;
     
 }
 
@@ -310,6 +327,7 @@ footer span {
     height: 365px;
     color: #fff;
     padding: 4%;
+     font-family: 'Raleway', sans-serif !important;
 }
 
 #sff .graphic_design:hover{
@@ -327,6 +345,7 @@ footer span {
     letter-spacing: 0.2em;
     font-weight: normal;
      text-decoration: underline;
+     font-family: 'Raleway', sans-serif !important;
 }
 
  .video_editing p { 
@@ -339,12 +358,14 @@ footer span {
     letter-spacing: 0.2em;
     font-weight: normal;
      text-decoration: underline;
+     font-family: 'Raleway', sans-serif !important;
 }
  .graphic_design p { 
     width: 100%;    
     padding-top: 35%; 
     font-size: 200%;
     text-align: center !important;
+     font-family: 'Raleway', sans-serif !important;
     align-content: center;
     color: #fff;
     letter-spacing: 0.2em;
@@ -397,6 +418,7 @@ footer span {
     letter-spacing: 0.2em;
     font-weight: 100;
     text-align: center;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .strategy h2 {
@@ -419,6 +441,7 @@ footer span {
     border-bottom: solid 3px #22e1ec ;
      border-top: solid 3px #22e1ec;
     height : 400px;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .card-block2 img {
@@ -490,7 +513,8 @@ footer span {
     color: #fff;
     padding: 5%;
     letter-spacing: 2px;    
-    font-family: 'Raleway', sans-serif;    
+      
+        font-family: 'Raleway', sans-serif !important;
 }
 .Web-service h3 {
     font-size: 2.7em;
@@ -530,6 +554,7 @@ footer span {
      height:  380px;
     color: #fff;
     padding: 5%;
+     font-family: 'Raleway', sans-serif !important;
 }
 
 .motion-service h3 {
@@ -572,6 +597,7 @@ footer span {
      height:  380px;
     color: #fff;
     padding: 5%;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .graphic-service h3 {
@@ -616,6 +642,7 @@ footer span {
      height:  380px;
     color: #fff;
     padding: 5%;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .video-service h3 {
@@ -658,6 +685,7 @@ footer span {
      height:  380px;
     color: #fff;
     padding: 5%;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .brand-service h3 {
@@ -701,6 +729,7 @@ footer span {
      height:  380px;
     color: #fff;
     padding: 5%;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .content-service h3 {
@@ -740,6 +769,7 @@ footer span {
      height:  380px;
     color: #fff;
     padding: 5%;
+    font-family: 'Raleway', sans-serif !important;
 }
 .app-service h3 {
     font-size: 2.7em;
@@ -781,6 +811,7 @@ footer span {
      height:  380px;
     color: #fff;
     padding: 5%;
+    font-family: 'Raleway', sans-serif !important;
 }
 .main-service h3 {
     font-size: 2.7em;
@@ -863,6 +894,7 @@ footer span {
     border-bottom: solid 3px #22e1ec ;
      border-top: solid 3px #22e1ec;
     height : 500px;
+           font-family: 'Raleway', sans-serif !important;
 }
     
  .Web-service {
