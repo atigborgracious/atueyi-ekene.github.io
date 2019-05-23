@@ -81,15 +81,16 @@ font-size: 1rem;
 .process p {
     background-color: #0ea7e4;
     color : #fff;
-    padding : 2%;
+    padding : 4% 2%;
     text-align: center;
     font-size: 1.3rem;
     font-family: 'Raleway', sans-serif !important;
+    border-radius: 5px;
 }
 
 .process span {
     font-weight: lighter;
-    border-bottom: solid 1px #e20b92;
+    border-bottom: solid 3px #e20b92;
     font-family: 'Raleway', sans-serif !important;
 }
 
@@ -151,7 +152,9 @@ footer span {
     font-size:17px;
     letter-spacing: 0.045em;
     font-family: 'Raleway', sans-serif !important;
-}
+} 
+
+
 
 .btn svg {
     position: absolute;
@@ -213,7 +216,12 @@ footer span {
 
 
 .main_container {
-    background-color: #282e34;
+    background: url("../img/main-container-back.png") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    padding:3% 0;
 }
 
 .main_container h1 {
@@ -231,7 +239,85 @@ footer span {
    border-bottom: solid 1px #636363;
     opacity: 0.8;
     font-family: 'Raleway', sans-serif !important;
+} 
+
+
+.main_container .card{
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    padding:20% 0;
+    color:#282e34;
+    font-weight: bold;
 }
+.card h3 {
+    letter-spacing: 3px;
+   font-weight: bold;  
+}
+
+ .my-button {
+        width: 100%;
+        margin: 0 auto;
+    }   
+
+    
+ .my-button p {
+    margin: 0 auto;
+    letter-spacing: 1px;
+     text-align: center;
+} 
+
+.my-button span:hover {
+ font-weight:600;   
+}
+
+button {
+    border:none!important;
+}
+
+.my-button button {
+    background-color: #0ea7e4;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin:2px;
+    padding:9px 35px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+} 
+       
+ .my-button button a{
+    color:#fff!important;
+     text-decoration: none;
+}  
+
+
+.my-button button:hover {
+    background-color: #1094c9;
+} 
+
+
+
+.my-button2 button {
+    background-color: #0ea7e4;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin:2px;
+    padding:9px 35px;
+    letter-spacing: 2px;
+    border-radius: 25px;
+} 
+       
+ .my-button2 button a{
+    color:#fff!important;
+     text-decoration: none;
+}  
+
+
+.my-button2 button:hover {
+    background-color: #1094c9;
+}
+
 
 
 .see_more {
@@ -409,6 +495,7 @@ footer span {
 
 .strategy {
     background-color: #17b7c1;
+    padding: 2% 0;
     
 }
 
@@ -2048,104 +2135,168 @@ margin : 1%;
     
 }
 
+#works-main {
+    background: url("../img/work-main.png") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   height : 100vh;
+    align-items: center;
+    color: #fff;
+    padding: 12% auto;
+} 
 
-/*@media only screen and (max-width:830px), only screen and (min-width:600px) {
+ 
+
+.my-button h6{
+    background: #fff;
+    border-radius: 4px;
+    padding: 2% 4%;
+    max-width: 100%;
+} 
+
+
+
+.work-card {
+    background: rgba(255,255,255,0.7);
+    height: 18em;
+    padding:30% 0 3% 0;
+    border-radius: 10px;
+    margin-top:55%;
+}
+
+
+.work-card h3 {
+    font-weight: bold;
+    letter-spacing: 3px;
+    color:#282e34;
+}
+
+
+@media only screen and (max-width:1400px) {
+   .work-card {
+    background: rgba(255,255,255,0.7);
+    height: 18em;
+    padding:30% 0 3% 0;
+    border-radius: 10px;
+    margin-top:85%;
+} 
+}
+ 
+
+@media only screen and (max-width:1024px) {
+    #works-main {
+    background: url("../img/work-main.png") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   height : auto;
+    color: #fff;
+    padding: 30% 0;
+} 
     
-    .service1 {
-    background: url("../img/serv1.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    margin: 1% 3px;
-     height: auto;
-    color: #fff;
-    padding: 4%;
+    .work-card {
+    background: rgba(255,255,255,0.7);
+    height: 18em;
+    padding:30% 0 3% 0;
+    border-radius: 10px;
+    margin-top:35%;
+} 
 }
 
-.service2 {
-    background: url("../img/serv2.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   margin: 1% 3px;
-    height: 450px;
-    color: #fff;
-    padding: 4%;
-}
 
-.service3 {
-    background: url("../img/serv3.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   margin: 1% 3px;
-    height: 450px;
-    color: #fff;
-    padding: 4%;
-}
-
-.service4 {
-    background: url("../img/serv4.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   margin: 1% 3px;
-    height: 450px;
-    color: #fff;
-    padding: 4%;
-}
-
-.service5 {
-    background: url("../img/serv5.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    margin: 1% 3px;
-    height: 450px;
-    color: #fff;
-    padding: 4%;
-}
-
-.service6 {
-    background: url("../img/serv6.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   margin: 1% 3px;
-    height: 450px;
-    color: #fff;
-    padding: 4%;
-}
-
-.service7 {
-    background: url("../img/serv7.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   margin: 1% 3px;
-    height: 450px;
-    color: #fff;
-    padding: 4%;
-}
-
-.service8 {
-    background: url("../img/serv8.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   margin: 1% 3px;
-    height: 450px;
-    color: #fff;
-    padding: 4%;
-}
+@media only screen and (max-width:900px) {
+  
+   .work-card {
+    background: rgba(255,255,255,0.7);
+    height: auto;
+    padding:15% 0 10% 0;
+    border-radius: 10px;
+    margin-top:2%;
+} 
     
 }
-*/
+
+
+
+@media only screen and (max-width:768px) {
+    
+   .work-card {
+    background: rgba(255,255,255,0.7);
+    height: auto;
+    padding:15% 0 10% 0;
+    border-radius: 10px;
+    margin-top:5%;
+}   
+    .work-card h3 {
+        font-size: 2em;
+    }   
+    
+}
+
+
+#works-wrapper {
+    background: url("../img/works-wrapper.png") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    height: auto;
+    color: #fff;
+    padding: 12% 4%;
+} 
+
+#works-wrapper h1 {
+    font-size: 4em;
+    text-align: center;
+    letter-spacing:0.3em;
+    font-weight: bolder;
+}
+ 
+
+
+.website-card{
+    border-radius:4px;
+    padding:2% 11%;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  
+} 
+
+.website-card:hover{
+    border-radius:4px;
+    padding:2% 10%;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+     transition-timing-function: ease-in;
+
+  /* Quick on the way out */
+  transition: 0.9s;
+  
+}  
+
+
+
+
+@media only screen and (max-width:720px){
+    #works-wrapper {
+    background: url("../img/works-wrapper.png") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: auto;
+    color: #fff;
+    padding-top:30%;
+    padding-bottom:30%;    
+} 
+
+#works-wrapper h1 {
+    font-size: 3em;
+    text-align: center;
+    letter-spacing:0.1em;
+    font-weight: bolder;
+}
+ 
+}
