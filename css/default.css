@@ -351,7 +351,7 @@ margin: 30px auto 50px auto;
 /*****ABOUT US SECTION******/
 
 .about-header{
-        background:url(../images/about-bg2.jpg) repeat center top;
+        background:url(../img/about-bg2.jpg) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -365,7 +365,7 @@ margin: 30px auto 50px auto;
 
 
 
-.about-header h1 {
+.about-header h1 { 
     letter-spacing:3px;
     font-size: 75px;
     font-weight:800;
@@ -376,6 +376,7 @@ margin: 30px auto 50px auto;
     
     
 } 
+
 
 
 #about{
@@ -409,7 +410,7 @@ margin: 30px auto 50px auto;
 @media(max-width:720px) {
     
 .about-header{
-        background:url(../images/about-bg3jpg.jpg) repeat center top;
+        background:url(../img/about-bg3jpg.jpg) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -466,7 +467,7 @@ margin: 30px auto 50px auto;
 
 /*****PROJECTS SECTION******/
 .projects-header{
-        background:url(../images/projects-bg.jpg) repeat center top;
+        background:url(../img/projects-bg.jpg) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -495,7 +496,7 @@ margin: 30px auto 50px auto;
 @media(max-width:720px) {
     
     .projects-header{
-        background:url(../images/projects-bg2.jpg) repeat center top;
+        background:url(../img/projects-bg2.jpg) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -664,7 +665,7 @@ embed {
 /*****SUPPORT******/
 
 #support {
-        background:url(../images/support.jpg) repeat center top;
+        background:url(../img/support.jpg) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -752,7 +753,7 @@ embed {
     
     
     #support {
-        background:url(../images/support.jpg) repeat center top;
+        background:url(../img/support.jpg) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -781,7 +782,7 @@ embed {
 
 @media(max-width:720px)  {
     #support {
-        background:url(../images/support.jpg) repeat center top;
+        background:url(../img/support.jpg) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -822,7 +823,7 @@ embed {
 
 
 #contact {
-         background:url(../images/contact-bg.jpg) repeat center top;
+         background:url(../img/contact-bg.jpg) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -927,7 +928,7 @@ footer a:hover {
 @media(max-width:720px) {
     
 #contact {
-         background:url(../images/contact-bg.jpg) repeat center top;
+         background:url(../img/contact-bg.jpg) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
