@@ -766,6 +766,17 @@ footer h6 {
   font-family: 'Montserrat', sans-serif;     
 }
 
+.footer2 {
+    background:#121214;
+    padding: 20px 0 5px 0;
+}
+
+.footer2 p {
+   font-family: 'Montserrat', sans-serif; 
+    font-size: 14px;
+    color:#fff;
+    opacity: 0.6;
+}
 
 
 @media(max-width:720px) {
@@ -797,7 +808,7 @@ footer h6 {
     
  .contact-content h3{
   letter-spacing:0px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight:700;
     color:#2e8eff;
     padding-bottom:1% ;
@@ -806,6 +817,51 @@ footer h6 {
     margin-top: 40px;
      margin-bottom: 20px;
     line-height: 1.2em;
+} 
+    
+footer {
+    background: #242429;
+    padding: 45px 10px 30px 10px;
+    color:#fff;
+}
+    
+    
+    
+    
+ footer h5 {
+  font-size: 16px;
+  font-weight: 600; 
+  color:#fff;
+    text-align: left;
+    margin-top: 20px;
+    letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;     
+}
+
+
+
+footer h6 {
+  font-size: 14px;
+  font-weight: 500; 
+  color:#fff;
+    text-align: left;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;     
+}
+   
+ 
+    
+ .footer2 {
+    background:#121214;
+    padding: 20px 0 5px 0;
+}
+
+.footer2 p {
+   font-family: 'Montserrat', sans-serif; 
+    font-size: 12px;
+    color:#fff;
+    opacity: 0.6;
 }   
     
     
