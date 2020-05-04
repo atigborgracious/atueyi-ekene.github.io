@@ -497,4 +497,69 @@ margin: 10px auto 5px auto;
 } 
     
     } 
+
+
+/*****VALUES SECTION******/
+
+
+.values-header{
+        background:url(../img/values.jpg) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-attachment: fixed;
+        width:100%;
+        height:auto;
+        padding-top:250px;
+         padding-bottom:150px;
+    }
+
+
+
+
+.values-header h1 { 
+    letter-spacing:3px;
+    font-size: 75px;
+    font-weight:800;
+    color: #ffff;
+    padding-bottom:1% ;
+    font-family: 'Montserrat', sans-serif;   
+    text-align: center;  
+} 
+
+
+
+@media(max-width:720px) {
+  
+  .values-header{
+        background:url(../img/values-bg2.jpg) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        width:100%;
+        height:auto;
+       background-attachment: scroll;
+        padding-top:200px;
+         padding-bottom:100px;
+    }
+
+
+.values-header h1 {
+    letter-spacing:3px;
+    font-size: 55px;
+    font-weight:800;
+    color: #ffff;
+    padding-bottom:1% ;
+    font-family: 'Montserrat', sans-serif;   
+    text-align: center;
+    
+    
+}   
+    
+    
+    
+}
+
   
