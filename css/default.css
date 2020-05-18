@@ -714,3 +714,31 @@ color:#ffff;
     
     
 }
+
+
+svg {
+    width:80px;
+    height: auto;
+    margin: 15px auto;
+    text-align: left;
+}
+
+.path {
+  animation: draw 3.5s infinite;
+  background:none;
+}
+ 
+ @keyframes draw {
+   
+  60%{
+    fill:white
+  }
+   
+  80% {
+    stroke-dashoffset: 0;
+  }
+   
+   100%{
+     fill:#ffc0cb;
+   }
+}
