@@ -145,7 +145,13 @@ margin: 0 auto;
     margin:15px auto;    
    font-size: 18px;
      line-height: 1.8em;
-}  
+} 
+
+
+.masthead h6 {
+  margin-bottom: 40px!important;   
+  margin-top: 60px!important;       
+} 
 
 footer {
     background: #242424;
@@ -183,11 +189,11 @@ margin: 0 auto;
     
   .masthead h1 {
     color:#ffff;
-   font-family: 'Mont-Bold', sans-serif;          
+   font-family: 'Mont-Black', sans-serif;          
     letter-spacing: 3px;
    text-align:left;
    font-size: 40px;
-    margin:10px auto 10x auto;
+    margin:30px auto 10x auto;
 }
 
  .masthead h5 {
@@ -199,12 +205,18 @@ margin: 0 auto;
    font-size: 20px;
 } 
     
+ .masthead h6 {
+  margin-bottom: 40px!important;   
+  margin-top: 80px!important;       
+}   
+    
 .home-button-container span {
     background:#278394;
     border-radius:5px;
     padding: 20px;
     color:#fff;
     margin-top: 0px;
+   
 }    
 
    
@@ -334,7 +346,7 @@ padding: 10px 0 100px 0;
 .about-section {
 background: #4ca7b8;    
 /*background:#278394;*/
-padding: 10px 10px 100px 10px;    
+padding: 10px 5px 100px 5px;  
 }
     
     
@@ -343,10 +355,10 @@ padding: 10px 10px 100px 10px;
    font-family: 'Mont-Black', sans-serif;          
     letter-spacing: 5px;
    text-align:left;
-   font-size: 40px;
-    padding-left: 20px;
-    margin-top: 40px;
-  border-left: #ffff 10px solid;     
+   font-size: 45px;
+    padding-left: 0px;
+    margin-top: 60px;
+  border-left:none;     
  
 } 
     
@@ -356,8 +368,8 @@ padding: 10px 10px 100px 10px;
     letter-spacing: 1px;
    text-align:left;
     margin:3px auto 0px auto;    
-   font-size: 25px;
-     line-height: 1.8em;
+   font-size: 20px;
+   line-height: 1.4em;
 } 
 
  .about-section h5 {
@@ -365,8 +377,8 @@ padding: 10px 10px 100px 10px;
    font-family: 'Mont-Book', sans-serif;          
     letter-spacing: 1px;
    text-align:left;
-    margin:30px auto 0px auto;    
-   font-size: 18px;
+    margin:15px auto 0px auto;    
+   font-size: 14px;
      line-height: 1.8em;
 } 
 
@@ -376,7 +388,7 @@ padding: 10px 10px 100px 10px;
     letter-spacing: 1px;
    text-align:left;
     margin:3px auto 0px auto;    
-   font-size: 16px;
+   font-size: 14px;
      line-height: 1.8em;
 }     
     
@@ -434,6 +446,73 @@ padding: 50px 0 50px 0;
     line-height: 2.2em;
 }
 
+@media (max-width:1030px) {
+    .skillset h3 span {
+   padding-bottom: 0px;
+    border-bottom: none;  
+}
+    
+    .skillset h3 {
+  color:#4ca7b8;
+   font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing:2px;
+   text-align:left;
+   font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+    
+}
+
+
+@media (max-width: 800px) {
+   
+    .skillset h1 {
+  color:#4ca7b8;
+   font-family: 'Mont-Black', sans-serif;          
+    letter-spacing: 10px;
+   text-align:left;
+   font-size: 45px;
+    margin-top: 40px;
+     margin-bottom: 20px;
+       
+ 
+}
+    
+ .skillset h1 span {
+    padding-left:0px;
+    border-left:none;
+}
+    
+.skillset h3 {
+  color:#4ca7b8;
+   font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing:2px;
+   text-align:left;
+   font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.skillset h3 span {
+   padding-bottom: 0px;
+    border-bottom: none;  
+}
+    
+.skillset p {
+  color:#4f4f4f;
+   font-family: 'Mont-Book', sans-serif;          
+    letter-spacing:0px;
+   text-align:left;
+   font-size: 14px;
+    margin-top: 15px;
+    line-height: 2.2em;
+}    
+   
+    
+    
+}
+
 
 /*******RECENT PROJECTS*********/
 
@@ -468,4 +547,40 @@ padding: 50px 0 50px 0;
     color:#fff;
     font-family: 'Mont-Book', sans-serif;     
     
+}
+
+.mark-img img {
+    margin-top :100px;
+}
+
+
+
+@media (max-width: 800px) {
+  
+    .recent-projects h1 {
+  color:#ffff;
+   font-family: 'Mont-Black', sans-serif;          
+    letter-spacing: 5px;
+   text-align:left;
+   font-size: 45px;
+    margin-top: 50px;
+     margin-bottom: 10px;
+       
+}
+
+.recent-projects h1 span {
+    padding-left: 0px;
+    border-left:none;
+}
+
+.recent-projects p {
+    margin-top: 15px;
+     font-size: 14px;
+}
+    
+ .mark-img img {
+    margin-top :40px;
+}
+   
+
 }
