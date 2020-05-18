@@ -584,3 +584,133 @@ padding: 50px 0 50px 0;
    
 
 }
+
+
+
+/*******CONTACT US*********/
+
+.contact{
+background:#ffc0cb;
+padding: 60px 0 70px 0; 
+color:#ffff;    
+}
+
+
+.contact h1 {
+  color:#ffff;
+   font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing: 5px;
+   text-align:center;
+   font-size: 60px;
+    margin-top: 50px;
+     margin-bottom: 10px;
+       
+ 
+}
+
+
+.contact h6 {
+  color:#ffff;
+   font-family: 'Mont-Book', sans-serif;          
+    letter-spacing: 1px;
+   text-align:center;
+   font-size: 20px;
+    margin-top:5px;
+     margin-bottom: 40px;
+       
+}
+
+.contact h5 {
+  color:#ffff;
+   font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing: 2px;
+   text-align:center;
+   font-size: 20px;
+     margin-top:5px;
+     margin-bottom:5px;  
+}
+
+.contact p {
+  color:#ffff;
+   font-family: 'Mont-Book', sans-serif;          
+    letter-spacing: 2px;
+   text-align:center;
+   font-size: 18px;
+     margin-top:15px;
+     margin-bottom:5px;
+       
+}
+
+
+@media (max-width: 800px) {
+ 
+.contact{
+background:#ffc0cb;
+padding: 40px 0 70px 0; 
+color:#ffff;    
+}
+    
+    
+.contact h1 {
+  color:#ffff;
+   font-family: 'Mont-Black', sans-serif;          
+    letter-spacing: 3px;
+   text-align:left;
+   font-size: 45px;
+    margin-top: 50px;
+     margin-bottom: 20px;
+       
+}
+
+.contact h5 {
+  color:#ffff;
+   font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing: 2px;
+   text-align:left;
+   font-size: 18px;
+     margin-top:5px;
+     margin-bottom:5px;  
+}    
+    
+    
+.contact h6 {
+  color:#ffff;
+   font-family: 'Mont-Book', sans-serif;          
+    letter-spacing: 1px;
+   text-align:left;
+   font-size: 16px;
+    margin-top:15px;
+     margin-bottom:20px;
+       
+}    
+    
+ .contact p {
+  color:#ffff;
+   font-family: 'Mont-Book', sans-serif;          
+    letter-spacing: 2px;
+   text-align:left;
+   font-size: 14px;
+     margin-top:5px;
+     margin-bottom:5px;
+       
+}   
+    
+}
+
+
+
+@media (max-width: 320px) {
+    
+    
+    .contact h5 {
+  color:#ffff;
+   font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing: 2px;
+   text-align:left;
+   font-size: 16px;
+     margin-top:5px;
+     margin-bottom:5px;  
+}    
+    
+    
+}
