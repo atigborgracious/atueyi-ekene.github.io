@@ -22,7 +22,9 @@ body,html{
     background: rgba(255,255,255,1);
     /*box-shadow: 0 3px 6px rgba(0,0,0,0.7);*/
     top: 0 !important;
-    
+    font-family: 'Montserrat', sans-serif;   
+    font-weight:300;
+    font-size:12px;
 }
 
 .navbar-custom img {
@@ -33,6 +35,9 @@ body,html{
 .navbar-custom .navbar-brand{
     color: black;
     padding: 0.8rem 1rem;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight:300;
+    font-size:12px;
     
 }
 /* change the link color and add padding for height */ 
@@ -49,6 +54,9 @@ body,html{
     background-color:#e37b1d; 
     border-radius: 4px;
     transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight:300;
+    font-size:12px;
 } 
 
 
@@ -658,7 +666,9 @@ margin: 0 auto;
   border-radius: 2px;
     font-family: 'Montserrat', sans-serif;   
     font-weight:300;
-    font-size:14px;   
+    font-size:14px;
+     padding: 25px 10px!important;
+   
 }
 
   
@@ -748,6 +758,8 @@ margin: 0 auto;
     font-family: 'Montserrat', sans-serif;   
     font-weight:300;
     font-size:14px;
+   padding: 25px 10px!important;
+    border:none!important;
 }
 
 .contact-wrapper textarea {
@@ -755,6 +767,8 @@ margin: 0 auto;
     font-family: 'Montserrat', sans-serif;   
     font-weight:300;
     font-size:14px;
+     padding: 10px 10px!important;
+    border:none!important;
 }
 
 
