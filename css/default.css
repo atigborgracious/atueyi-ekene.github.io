@@ -147,7 +147,8 @@ font-family: 'Mont-Book', sans-serif;
 .home-left img {
     position: relative;
     margin-bottom:0px!important;
-    padding-bottom: 0px!important;    
+    padding-bottom: 0px!important; 
+    z-index: 2;
 }
 
 .bottom-left{
@@ -160,17 +161,17 @@ font-family: 'Mont-Book', sans-serif;
   letter-spacing: 2px;
   color: #fff;
     line-height:0.8em;
+    z-index: 2;
 }
 
 .home-right {
-   background:url(../img/home-right-bg.jpg) no-repeat center top;
+   background:url(../img/home-right-bg.jpg) repeat center top;
     background-size: cover;
     background-attachment: fixed;
      -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 100%;
     height:55em;
     padding-top:18em;
     z-index: 2;
@@ -1172,4 +1173,169 @@ svg {
     opacity: 0.7;
 }
  
+}
+
+
+/*****TENGESA SECTION******/
+
+#tensega {
+    background: #000;
+    
+}
+
+.tengesa-inner h2{
+      font-family: 'Montserrat', sans-serif; 
+  font-weight:600;
+  font-size:55px;
+  letter-spacing:2px;
+  color: #fff;  
+}
+
+.tengesa-inner h3{
+      font-family: 'Montserrat', sans-serif; 
+  font-weight:600;
+  font-size:40px;
+  letter-spacing:4px;
+  color: #fff; 
+    text-align: left;
+padding-bottom:20px;
+padding-top: 60px;    
+}
+
+
+.tengesa-inner h4{
+      font-family: 'Montserrat', sans-serif; 
+  font-weight:500;
+  font-size:30px;
+  letter-spacing:2px;
+  color: #fff; 
+    text-align: left;
+padding-bottom:10px;
+padding-top:5px;    
+}
+
+.tengesa-inner h5{
+      font-family: 'Montserrat', sans-serif; 
+  font-weight:300;
+  font-size:30px;
+  letter-spacing:2px;
+  color: #fff;  
+padding-top:2em;    
+}
+
+
+.tengesa-inner h6{
+      font-family: 'Montserrat', sans-serif; 
+  font-weight:300;
+  font-size:14px;
+  letter-spacing:0px;
+  color: #fff;  
+padding-top:17em;
+    padding-bottom: 10px;
+    line-height: 1.8em;
+    border-bottom: #fff 1px solid;
+}
+
+
+.tengesa-inner p{
+      font-family: 'Montserrat', sans-serif; 
+  font-weight:300;
+  font-size:14px;
+  letter-spacing:0px;
+  color: #fff;  
+    line-height: 1.8em;
+   opacity: 0.8;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+.back-link p  {
+   font-family: 'Montserrat', sans-serif; 
+  font-weight:300;
+  font-size:16px;
+  letter-spacing:0px;
+  color: #fff!important;
+    margin-top:5em;
+}
+
+.back-link p a {
+    color:#fff;
+}
+
+
+@media (max-width:1024px) {
+    
+    
+  .tengesa-inner h6{
+      font-family: 'Montserrat', sans-serif; 
+  font-weight:300;
+  font-size:14px;
+  letter-spacing:0px;
+  color: #fff;  
+padding-top:5em;
+    padding-bottom: 10px;
+    line-height: 1.8em;
+    border-bottom: #fff 1px solid;
+}  
+}
+
+
+@media (max-width:600px) {
+  .tengesa-inner h2{
+      font-family: 'Montserrat', sans-serif; 
+  font-weight:600;
+  font-size:40px;
+  letter-spacing:2px;
+  color: #fff;  
+}
+    
+.tengesa-inner h3{
+      font-family: 'Montserrat', sans-serif; 
+  font-weight:600;
+  font-size:30px;
+  letter-spacing:4px;
+  color: #fff; 
+    text-align: left;
+padding-bottom:20px;
+padding-top: 60px;    
+}
+
+
+.tengesa-inner h4{
+      font-family: 'Montserrat', sans-serif; 
+  font-weight:500;
+  font-size:25px;
+  letter-spacing:2px;
+  color: #fff; 
+    text-align: left;
+padding-bottom:5px;
+padding-top:5px;    
+}
+
+.tengesa-inner h5{
+      font-family: 'Montserrat', sans-serif; 
+  font-weight:300;
+  font-size:20px;
+  letter-spacing:2px;
+  color: #fff;  
+padding-top:0.1em;    
+}
+    
+ .tengesa-inner h6{
+      font-family: 'Montserrat', sans-serif; 
+  font-weight:300;
+  font-size:14px;
+  letter-spacing:0px;
+  color: #fff;  
+padding-top:0.2em;
+    padding-bottom: 10px;
+    line-height: 1.8em;
+    border-bottom: #fff 1px solid;
+}    
+    
 }
