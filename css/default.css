@@ -1391,7 +1391,7 @@ width: 50%;
     color:#0E1320;
     font-family: 'Montserrat', sans-serif;   
     font-weight:600;
-    font-size: 14px;
+    font-size: 16px;
     text-align:center;    
 } 
 
@@ -1400,8 +1400,9 @@ width: 50%;
     color:#0E1320;
     font-family: 'Montserrat', sans-serif;   
     font-weight:600;
-    font-size:12px;
-    text-align:center;    
+    font-size:14px;
+    text-align:center;
+     margin-top: 10px;
 } 
     
     
